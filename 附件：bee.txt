@@ -1,0 +1,85 @@
+¸½¼ş£ºyee¡«.txt
+·äÁ¦ÅÂ     -   beeper bee
+Ä©Ó°ÃÛ·ä -     ender_bee
+ÓËÃÛ·ä -       uranium_bee
+Ê·À³Ä·ÃÛ·ä -   slimy_bee
+¾§ÖÊÓË¿ó·ä -   uraninite_bee *
+½ğÃÛ·ä -       gold_bee
+²¬ÃÛ·ä -       platinum_bee *
+ÒøÃÛ·ä -       silver_bee
+ÂÌ±¦Ê¯ÃÛ·ä -   emerald_bee
+ÏÂ½çÊ¯Ó¢ÃÛ·ä - quartz_bee
+ÂÁÃÛ·ä -       aluminum_bee
+Ê¯Í·ÃÛ·ä -     stoned_bee
+ºìÊ¯ÃÛ·ä       Redstone bee
+Ô²Ê¯ÃÛ·ä -     Cobbee *
+ÑÒ½¬ÃÛ·ä -     Lava Bee
+Ë®ÃÛ·ä -       water bee
+Í­ÃÛ·ä         Copper bee
+ÈüÌØË¹ÃÛ·ä     certus_bee
+ÎıÃÛ·ä         Tin Bee
+ºÚê×Ê¯ÃÛ·ä     Obsidian Bee
+Ğ¿ÃÛ·ä         Zinc Bee
+ÄøÃÛ·ä         Nickel Bee
+·úÊ¯ÃÛ·ä       Fluorite Bee *
+Ó«¹âÃÛ·ä       Glowing bee *
+²ÊÉ«ÃÛ·ä       RGBee
+ï°ÃÛ·ä         Osmium Bee
+Ç¦ÃÛ·ä         Lead Bee
+ÃºÌ¿ÃÛ·ä       coal bee
+Çà½ğÊ¯ÃÛ·ä     Lapis Bee
+×êÊ¯ÃÛ·ä       Diamond Bee
+Ä¾²ÄÃÛ·ä       Lumber Bee
+ÁÒÑæÃÛ·ä       Blazing Bee
+ÈÛÑÒÃÛ·ä       Magma bee
+¾ªã¤ÃÛ·ä       Spooky bee *
+µòÁéÃÛ·ä       Wither Bee
+µòÁãÃÛ·ä       Withered Bee *
+ÁúÃÛ·ä         Dragonic Bee *
+ATMÃÛ·ä        Allthemodium bee
+Áú¿óÃÛ·ä       Draconium Bee *
+¾õĞÑÃÛ·ä       Awakened Bee
+Õñ½ğÃÛ·ä       Vibranium Bee
+ÄÑµÃËØÃÛ·ä     Unobtainium Bee
+Áé»êÈÛÑÒÃÛ·ä   Soul Lava Bee
+º£À¶±¦Ê¯ÃÛ·ä   Aquamarine Bee
+Ä§Á¦ÃÛ·ä       Mana Bee
+°«ÅÖÃÛ·ä       Croppy Bee
+ÉñÃØÃÛ·ä       Mystical Bee
+³àÌú·ä         crimson_iron_bee
+ÄàÍÁÃÛ·ä       Dirty Bee
+·ØÄ¹ÃÛ·ä       Gravely Bee
+ÊØ»¤ÕßÃÛ·ä     Guardian Bee *
+±ùÃÛ·ä         Icey Bee
+Ğ¡Ã¨ÃÛ·ä       Kitten Bee
+ÂÌÒ¶ÃÛ·ä       Leafy Bee
+Ê¯½³ÃÛ·ä       Mason Bee
+°ÂÀû°ÂÃÛ·ä     Oreo Bee
+É³×ÓÃÛ·ä       Sandy Bee
+Ö©ÖëÃÛ·ä       Spider Bee
+Ë¹Ì¹ÃÛ·ä       Stan Bee
+½©Ê¬ÃÛ·ä       ZomBee
+·±ĞÇÃÛ·ä       Starry Bee
+»ìãçÃÛ·ä       Chaotic Bee
+Ñ©ÈËÃÛ·ä       Yeti Bee
+½Ì»ÊÃÛ·ä       Papa Emeritus Bee
+¶ñ»êÃÛ·ä       Ghastly Bee
+îÜÃÛ·ä         Cobalt Bee
+Éñ»§Å£ÈâÃÛ·ä   KoBee Beef Bee
+ÑÎ°ÍÃÛ·ä       Salt Baee
+ĞäÕäÃÛ·ä       Beediddy
+ÏÂ½çºÏ½ğÃÛ·ä   netherite_bee
+ÃŞ»¨ÌÇÃÛ·ä     cotton_candy_bee
+ÃÜÍ­ÃÛ·ä        dense_copper_bee
+ÃÜ½ğÃÛ·ä        dense_gold_bee
+ÃÜÌúÃÛ·ä        dense_iron_bee
+ÃÜÇ¦ÃÛ·ä        dense_lead_bee
+ÃÜ¼¯ÏÂ½çºÏ½ğÃÛ·ädense_netherite_bee
+ÃÜÎıÃÛ·ä        dense_tin_bee
+ÃÜï°ÃÛ·ä        dense_osmium_bee
+ÃÜÄøÃÛ·ä        dense_nickel_bee
+ÃÜ²¬ÃÛ·ä        dense Platinum Bee
+ÃÜÒøÃÛ·ä        dense Silver Bee
+ÃÜÓËÃÛ·ä        dense Uranium Bee
+ÃÜĞ¿ÃÛ·ä        dense Zinc Bee
+¿ó¹¤ÃÛ·ä        Miner Bee

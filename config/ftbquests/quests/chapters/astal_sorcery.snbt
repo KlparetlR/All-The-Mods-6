@@ -1,0 +1,637 @@
+{
+	id: "70AE2F21054AD796"
+	group: "02FE661031A105D8"
+	order_index: 0
+	filename: "astal_sorcery"
+	title: "星辉魔法"
+	icon: "astralsorcery:starmetal_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "星辉魔法"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "观星"
+			description: [
+				"欢迎来到星辉魔法！"
+				""
+				"该模组将永远改变您玩Minecraft的方式，同时还具有令人惊叹的视觉效果。"
+			]
+			size: 1.5d
+			id: "6950F72651930951"
+			tasks: [{
+				id: "2EC2A284F54C3C9D"
+				type: "checkmark"
+				title: "观星"
+				icon: { id: "astralsorcery:altar_radiance", Count: 2b }
+			}]
+			rewards: [{
+				id: "620631644E4BF6D0"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "探索"
+			description: [
+				"正如标题所示，星辉魔法的第一部分是探索。"
+				""
+				"前往寻找散布在世界各地的白色大理石结构。 它们会在表面上，也会在地下，但仍然可以找到。"
+				""
+				"继续寻找，直到你找到一个中间有一个浮动的聚能水晶，然后在它下面的某个地方放一个原版工作台。"
+				""
+				"确保水晶能清晰的看到天空，否则什么都不会发生！"
+			]
+			dependencies: ["6950F72651930951"]
+			hide: true
+			dependency_requirement: "one_completed"
+			size: 1.25d
+			id: "250122EB4DD234AA"
+			tasks: [{
+				id: "2305D00EDE69C168"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			shape: "rsquare"
+			subtitle: "共鸣"
+			description: [
+				"升级您的星辉合成台，将提升您的魔法技能并开辟新的可能性。"
+				""
+				"与星辉合成台不同，这个祭坛需要你在它周围建造一个多方块结构，这在书中有展示，或者用你的魔杖右键点击祭坛。"
+			]
+			dependencies: ["250122EB4DD234AA"]
+			hide: true
+			hide_text_until_complete: true
+			size: 1.25d
+			id: "3897E4368DEB0731"
+			tasks: [{
+				id: "10090F580562155D"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			title: "星辉祭坛"
+			x: 2.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "星座"
+			dependencies: ["3897E4368DEB0731"]
+			hide: true
+			size: 1.25d
+			id: "77F19C5A4E7449DC"
+			tasks: [
+				{
+					id: "1261AF1629540A93"
+					type: "advancement"
+					title: "天体调谐"
+					icon: {
+						id: "astralsorcery:knowledge_share"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								creativeKnowledge: 1b
+							}
+						}
+					}
+					advancement: "astralsorcery:attune_self"
+					criterion: ""
+				}
+				{
+					id: "068FBBE20AB0884E"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "五彩"
+			dependencies: ["77F19C5A4E7449DC"]
+			hide: true
+			size: 1.25d
+			id: "3A266BCC750972EF"
+			tasks: [{
+				id: "65DEDD8383FEC1B0"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.0d
+			description: [
+				"共鸣祭坛是星辉魔法的下一个重要步骤。 它允许您将自己或水晶绑定到星座。"
+				""
+				"将自己绑定到一个祭坛，将在你的星芒宝典中解锁一个能力树的新标签，在那里你可以获得不同的能力或统计数据。"
+			]
+			dependencies: ["05F111F5A5D121D5"]
+			id: "03025D2C26829C27"
+			tasks: [
+				{
+					id: "208CB93ED81C5F8B"
+					type: "item"
+					item: "astralsorcery:attunement_altar"
+				}
+				{
+					id: "126D65B0027926AA"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			description: [
+				"在夜间，当您拿着共鸣星杖时，您会发现一些地方从地面冒出一些白色颗粒。"
+				""
+				"通过在这些颗粒附近挖掘，接近基岩层，您会发现水晶石矿石。 这些水晶具有独特的属性，可以在以后的过程中为您提供帮助。"
+				""
+				"建议您在开采这些矿石时将共鸣星杖放在副手，因为这样会更容易。"
+			]
+			dependencies: ["250122EB4DD234AA"]
+			id: "60453670FAC23174"
+			tasks: [{
+				id: "39FC0906484BCFB3"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				count: 5L
+				consume_items: false
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			dependencies: ["794E8123E2CB578F"]
+			id: "3769907561E63D18"
+			tasks: [{
+				id: "4FDA3F90D2CE2694"
+				type: "item"
+				item: "astralsorcery:rock_collector_crystal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.0d
+			description: ["这些水晶透镜可让您将聚能水晶的星辉聚焦到祭坛上，或将其散布到整个基地。"]
+			dependencies: ["32B10DB85B038DA6"]
+			id: "566126DB5183D918"
+			tasks: [{
+				id: "531DFB0AAD3CDF8D"
+				type: "item"
+				item: "astralsorcery:lens"
+			}]
+		}
+		{
+			title: "星辉"
+			x: -7.0d
+			y: -2.5d
+			description: [
+				"通过将水晶石与一些大理石结合，您可以制作聚星缸，这是一个以液体形式收集星辉的大锅。"
+				""
+				"要开始收集，只需右键单击聚星缸上的海蓝宝石，它就会慢慢开始收集。海蓝宝石会在一段时间后破裂，所以请务必更换它。"
+			]
+			dependencies: ["60453670FAC23174"]
+			id: "45DD510FAB476090"
+			tasks: [
+				{
+					id: "71B540A7D7DA12BC"
+					type: "item"
+					item: "astralsorcery:well"
+				}
+				{
+					id: "57E2855AA8145F9C"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: ["天文望远镜是望远镜的升级版，可以让您看到昏暗的星座。"]
+			dependencies: ["3897E4368DEB0731"]
+			hide: true
+			id: "2B88E726242C0F40"
+			tasks: [{
+				id: "020A06B6D3D145D0"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.5d
+			description: [
+				"望远镜将成为您观星的起点。"
+				""
+				"在夜间，当星星出来时，通过望远镜看天空，直到你找到一个更大的由星星组成的星座。"
+				""
+				"找到一个后，检查你的星图，看看有没有一个看起来很相似的。当你回头看它时，你可以按住[Shift]开始绘制星座。"
+				""
+				"一旦您绘制了一个有效的星座，该星座就会亮起，并且还会永久显示在天空中。"
+			]
+			dependencies: ["250122EB4DD234AA"]
+			id: "29E83DD1F5A3FEC4"
+			tasks: [{
+				id: "7228B211065BBD7B"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["3A266BCC750972EF"]
+			hide: true
+			id: "54613B0F33A85159"
+			tasks: [{
+				id: "2DFC17CFEAC8D18F"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			description: [
+				"星辉锭切削工具可以让您分解星辉锭和水晶。"
+				""
+				"把那些物品扔在地上，然后用该工具打击（左键）它们，使它们碎裂，从锭中获得星尘或者切割各种水晶石以分离属性"
+			]
+			dependencies: ["51A0951EA41570A6"]
+			id: "074D0738A05AA950"
+			tasks: [{
+				id: "4BCEA9B5FC87D521"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.0d
+			description: ["链接器可以让您集中聚能水晶或水晶透镜的星辉以进行转化、强化星辉祭坛和许多其他事情。"]
+			dependencies: ["3897E4368DEB0731"]
+			hide: true
+			id: "32B10DB85B038DA6"
+			tasks: [{
+				id: "2B6454C6606251F0"
+				type: "item"
+				item: "astralsorcery:linking_tool"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			description: ["通过放置一个铁矿石并链接一个聚能水晶，它会被注入星辉，变成星辉矿石，然后将其熔炼成星辉锭。"]
+			dependencies: [
+				"3897E4368DEB0731"
+				"32B10DB85B038DA6"
+			]
+			hide: true
+			id: "51A0951EA41570A6"
+			tasks: [{
+				id: "47A069B728064061"
+				type: "item"
+				icon: "astralsorcery:starmetal_ingot"
+				item: "astralsorcery:starmetal_ingot"
+				count: 8L
+				consume_items: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			description: ["星尘是通过用星辉锭切削工具打击星辉锭而产生的。"]
+			dependencies: [
+				"074D0738A05AA950"
+				"51A0951EA41570A6"
+			]
+			id: "05F111F5A5D121D5"
+			tasks: [{
+				id: "52F5FD518F086A9E"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.0d
+			description: [
+				"如果你想在你的技能树中禁用你获得的属性之一，你可以使用封闭印章来做到这一点。"
+				""
+				"一旦你制作了一个，它就会出现在你的技能树上。您所要做的就是，将其从左上角拖到要暂时禁用的能力中，同时，封闭印章在此过程中被消耗。"
+			]
+			dependencies: ["03025D2C26829C27"]
+			id: "5572A51C9F8429F8"
+			tasks: [{
+				id: "0B3AED7287FE2682"
+				type: "item"
+				item: "astralsorcery:perk_seal"
+			}]
+		}
+		{
+			icon: {
+				id: "astralsorcery:knowledge_share"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+			disable_toast: true
+			x: 8.5d
+			y: -6.0d
+			description: ["这组4根星杖将引导您充分了解每根星杖及其用途。"]
+			dependencies: ["05F111F5A5D121D5"]
+			id: "09F23F67A7CB6095"
+			tasks: [{
+				id: "3A6996EAF028D0EE"
+				type: "checkmark"
+				title: "实用星杖"
+				icon: "astralsorcery:illumination_wand"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -8.0d
+			description: [
+				"秩序星杖是你的标准建筑星杖。[Shift + 右键单击]以选择该方块，然后右键单击以放置方块。"
+				""
+				"对空气[Shift + 右键]改变模式。"
+			]
+			dependencies: ["09F23F67A7CB6095"]
+			id: "70495A1DD5FE396D"
+			tasks: [{
+				id: "188F2F9072B96E02"
+				type: "item"
+				item: "astralsorcery:architect_wand"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -7.5d
+			description: [
+				"转位星杖是您的标准替换魔杖。对方块[Shift + 右键]来选择它，然后[右键]替换方块。"
+				""
+				"对空气[Shift + 右键]改变范围。"
+			]
+			dependencies: ["09F23F67A7CB6095"]
+			id: "47CC701FA20B78AA"
+			tasks: [{
+				id: "69E4D1776BBD8B1D"
+				type: "item"
+				item: "astralsorcery:exchange_wand"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -7.5d
+			description: ["冲击星杖会向你所面对的方向发射一束星能魔法束。着陆后，它会将您推向它。"]
+			dependencies: ["09F23F67A7CB6095"]
+			id: "06E5E32584035A0B"
+			tasks: [{
+				id: "0ADE59C5A4916053"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.0d
+			description: [
+				"越空星杖（Traversal wand）有两个功能，你可以用[Shift + 右键]在它们之间切换。"
+				""
+				"在传送（blink）模式下，你将被传送到前方。拿着它，你可以瞄准并看到你将被传送到的位置。"
+				""
+				"在冲刺（dash）模式下，您可以通过按住[右键单击]为魔杖充能。释放它后，你会被撞到你所看到的方向。"
+			]
+			dependencies: ["09F23F67A7CB6095"]
+			id: "754BB5C6CC144571"
+			tasks: [{
+				id: "4CB0DF244CFAEEC9"
+				type: "item"
+				item: "astralsorcery:blink_wand"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.0d
+			dependencies: ["77F19C5A4E7449DC"]
+			hide: true
+			id: "3E2309BAFAE8CF52"
+			tasks: [{
+				id: "2D7A06F6901FE83E"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["77F19C5A4E7449DC"]
+			hide: true
+			id: "59FC9BCCBB3F6B62"
+			tasks: [{
+				id: "5FA88669F24E8C39"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["59FC9BCCBB3F6B62"]
+			id: "2D306FF2EA9A94CA"
+			tasks: [{
+				id: "19ED70340E65DAAC"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+		}
+		{
+			title: "水晶共鸣"
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["2D306FF2EA9A94CA"]
+			id: "794E8123E2CB578F"
+			tasks: [{
+				id: "5845BF1989242EEB"
+				type: "advancement"
+				icon: {
+					id: "astralsorcery:rock_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				advancement: "astralsorcery:attune_crystal"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			dependencies: ["2D306FF2EA9A94CA"]
+			id: "6E4B66A01855EAA6"
+			tasks: [{
+				id: "531748D86ECC5FCD"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			dependencies: ["6E4B66A01855EAA6"]
+			id: "40240888E783DEBB"
+			tasks: [{
+				id: "71C95450A23AD169"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_collector_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["3A266BCC750972EF"]
+			hide: true
+			id: "68C18316E27565E7"
+			tasks: [{
+				id: "699A11FC25CC330D"
+				type: "item"
+				item: {
+					id: "astralsorcery:resonator"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							upgrades: [
+								0
+								1
+								2
+							]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			dependencies: ["3A266BCC750972EF"]
+			hide: true
+			id: "5CB10BCC82F7C8B1"
+			tasks: [{
+				id: "00A80EF4C681E421"
+				type: "item"
+				item: "astralsorcery:fountain"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			description: [
+				"洞穴照明器是一个方块，当放置在任何地方时，它会通过放置黄色光源慢慢照亮它下方的区域。"
+				""
+				"非常适合防止怪物在基地或怪物农场下方的洞穴中生成！"
+			]
+			dependencies: ["250122EB4DD234AA"]
+			id: "264E718EA3A38B5D"
+			tasks: [{
+				id: "58DB063B2AC69451"
+				type: "item"
+				item: "astralsorcery:illuminator"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			description: [
+				"天体星门允许从一个点到另一个点的快速传送。只需将其中的2个放置在任何地方，围绕它们建造多方块结构即可！"
+				""
+				"站在其中一个星门上，您会看到一片漆黑的天空，黄色的星星代表其他星门。按住[Shift]，看着其中一颗星星，会把您传送到它那里。"
+			]
+			dependencies: ["3897E4368DEB0731"]
+			hide: true
+			id: "5BDE541EC051CFE8"
+			tasks: [{
+				id: "6FA1C48C4497A62E"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+					}
+				}
+				count: 2L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["3A266BCC750972EF"]
+			hide: true
+			id: "05E8FA4197DF9E9B"
+			tasks: [{
+				id: "37A87411751A15F3"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["77F19C5A4E7449DC"]
+			hide: true
+			id: "00516175868A1E68"
+			tasks: [{
+				id: "49CC3CB29F764149"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
+		}
+	]
+}
