@@ -33,7 +33,7 @@
 		{
 			x: -3.5d
 			y: 1.5d
-			description: ["在Y轴5到45之间的任何海洋生物群落中找到这种矿石。"]
+			description: ["在Y轴5到45之间的任何海洋生物群系中找到这种矿石。"]
 			hide_dependency_lines: false
 			dependencies: ["731686C758AD9A99"]
 			hide: false
@@ -53,7 +53,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["在Y轴107到113之间的下界诡异森林和绯红森林中找到这种矿石。"]
+			description: ["在Y轴107到113之间的诡异森林和绯红森林中找到这种矿石。"]
 			hide_dependency_lines: false
 			dependencies: ["731686C758AD9A99"]
 			dependency_requirement: "one_started"
@@ -72,7 +72,7 @@
 		{
 			x: 3.5d
 			y: 1.5d
-			description: ["在末地高岛生物群落中找到这种可获得的矿石。"]
+			description: ["在末地高岛生物群系中找到这种可获得的矿石。"]
 			hide_dependency_lines: false
 			dependencies: ["731686C758AD9A99"]
 			id: "4F6E6AF1D9E74CB7"
