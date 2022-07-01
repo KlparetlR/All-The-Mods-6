@@ -1,4 +1,4 @@
-2022-06-30 12:00
+2022-07-01 12:00
 
                                               ☞极为重要！！！
 Ⅰ.如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，内存至少给4G
@@ -10,12 +10,15 @@
 
 ⑴.本体（拉入启动器安装）：
 https://www.curseforge.com/minecraft/modpacks/all-the-mods-6/download/3814801
+文件名：ATM6-1.8.26.zip
 
 ⑵.i18n（拉入已安装本体的mods文件夹）：
 https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/3538356
+文件名：Minecraft-Mod-Language-Package-1-16.zip
 
 ⑶.安逸菌汉化组的模组简体中文翻译包（拉入已安装本体的resourcepacks文件夹）：
 https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package
+文件名：Minecraft-Mod-Language-Package-Not-Included-Language-Package.zip
 
 ☞记得确认是否成功加载翻译包
 ------------------------------------------------------------------------------------------------------------
@@ -23,7 +26,7 @@ https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Lang
 一些mod可能i18和翻译包没有汉化，那就您要自己查翻译。
 另外，作者汉化蜜蜂任务时，建了个所有蜜蜂的英文名和中文名，您可以查看它，也许对你有帮助
 ------------------------------------------------------------------------------------------------------------
-基础信息：[1.0.0] All The Mods 6-汉化-1.8.26 by KlparetlR
+基础信息：[1.0.2] All The Mods 6-汉化-1.8.26 by KlparetlR
 
 GitHub：https://github.com/KlparetlR/All-The-Mods-6
 
