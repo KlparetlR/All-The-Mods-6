@@ -14,7 +14,8 @@ https://www.curseforge.com/minecraft/modpacks/all-the-mods-6/download/3814801
 
 ⑵.i18n（拉入已安装本体的mods文件夹）：
 https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/3538356
-文件名：Minecraft-Mod-Language-Package-1-16.zip
+文件名：i18nupdatemod-1.16.5-2.0.3.jar
+resourcepacks文件夹中：Minecraft-Mod-Language-Package-1-16.zip
 
 ⑶.安逸菌汉化组的模组简体中文翻译包（拉入已安装本体的resourcepacks文件夹）：
 https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package
