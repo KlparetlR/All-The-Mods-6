@@ -1,0 +1,663 @@
+{
+	id: "16956970FF49BB4D"
+	group: ""
+	order_index: 1
+	filename: "creative"
+	title: "创造"
+	icon: "atmadditions:atm_star"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "创造蜂场"
+			x: -1.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			id: "695EEC6AEF550449"
+			tasks: [
+				{
+					id: "7D962F84E056C9BC"
+					type: "item"
+					item: "creativeapiary:tcreative_apiary"
+				}
+				{
+					id: "210AEEC1A63F3AE4"
+					type: "item"
+					item: "creativeapiary:creative_apiary_storage"
+				}
+				{
+					id: "2A15883F32EC6030"
+					type: "item"
+					item: "creativeapiary:creative_apiary_breeder"
+				}
+			]
+		}
+		{
+			title: "创造"
+			x: -0.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "2CF11A70229000AB"
+			tasks: [
+				{
+					id: "0CF133CEADDC504C"
+					type: "item"
+					item: "create:creative_motor"
+				}
+				{
+					id: "72936F6095FF124A"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			id: "546D0730D780D30B"
+			tasks: [{
+				id: "6A69B872FEC84F2C"
+				type: "item"
+				item: "storagedrawers:creative_storage_upgrade"
+			}]
+		}
+		{
+			title: "所有蜜蜂的女王！"
+			icon: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					NoGravity: 1b
+					Entity: "resourcefulbees:starry_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 158720
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									-758056058
+									-1076150183
+									-1386073788
+									-2131404576
+								]
+								Amount: -0.01102864620748712d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "starry"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					BoundingBox: [
+						119.18121451858983d
+						89.18819389391136d
+						-2510.376917900993d
+						119.8812145066689d
+						89.78819391775322d
+						-2509.6769179129137d
+					]
+					ForgeCaps: {
+						"mahoutsukai:mahou": {
+							MAHOUTSUKAI_PLAYER_PREV_YAW: 0.0f
+							MAHOUTSUKAI_SHOW_MAHOU: 1b
+							MAHOUTSUKAI_MANA_FULL: 1b
+							MAHOUTSUKAI_MANA_UP_COUNTER: 100
+							MAHOUTSUKAI_PLAYER_POSSESSING: 0b
+							MAHOUTSUKAI_AUTHORITY_HIT: 0b
+							MAHOUTSUKAI_LAST_RECIPE_CLOTH: 0b
+							MAHOUTSUKAI_PLAYER_HAS_MAGIC: 0b
+							MAHOUTSUKAI_FAE_SPAWN: 1b
+							MAHOUTSUKAI_PLAYER_CHARGE_RATE: 0.1d
+							MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES: 0
+							MAHOUTSUKAI_PLAYER_PREV_PITCH: 0.0f
+							MAHOUTSUKAI_PLAYER_MAX_MANA: 100
+							MAHOUTSUKAI_PLAYER_STORED_MANA: 100
+							MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES: 0
+							MAHOUTSUKAI_CANCEL_TIME: 0L
+							MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT: 0.0f
+						}
+						"mekanism:radiation": {
+							radiation: "1.0E-7d"
+						}
+						"twilightforest:cap_shield": {
+							permshields: 0
+							tempshields: 0
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+						"eidolon:knowledge": {
+							facts: [ ]
+							signs: [ ]
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						-409419848
+						1799438409
+						-1726188361
+						-557391145
+					]
+					mutationCount: 0
+					Age: 0
+					TicksSincePollination: 1725
+					AngerTime: 0
+					Motion: [
+						0.06378550652758308d
+						-0.12936738385710855d
+						0.06591101371158681d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#FFA500"
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.starry_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+					}
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 0b
+					Rotation: [
+						356.28833f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						119.53121451262936d
+						89.18819389391136d
+						-2510.0269179069533d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+					HivePos: {
+						X: 117
+						Y: 90
+						Z: -2506
+					}
+				}
+			}
+			x: -0.5d
+			y: -1.5d
+			subtitle: "时机已到！"
+			description: [
+				"   &6所有蜜蜂的女王现在在这里！&r"
+				""
+				"                  &4&l警告：&r"
+				"这只蜜蜂对伤害免疫，但可能还是有伤害她的来源。她是独一无二的，所以照顾好她！"
+				""
+				"无论您使用什么养蜂场或蜂巢，她都只会生产1个蜂巢。离心倍增器也不会对蜂巢产生效果。"
+			]
+			hide_dependency_lines: true
+			id: "5C010374A550B53F"
+			tasks: [
+				{
+					id: "08D9DBD77105C43B"
+					type: "item"
+					item: "allthecompressed:atm_star_block"
+					consume_items: false
+				}
+				{
+					id: "26DCB9E478CEDA48"
+					type: "item"
+					item: "resourcefulbees:bee_jar"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "6644ED6942B0FACE"
+					type: "item"
+					item: {
+						id: "resourcefulbees:bee_jar"
+						Count: 1b
+						tag: {
+							BeeType: "starry"
+							Entity: "resourcefulbees:starry_bee"
+							Color: "#FFA500"
+							display: {
+								Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.starry_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+							}
+						}
+					}
+				}
+				{
+					id: "5A2C256ED433C26C"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Properties: {
+									textures: [{
+										Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjcyOGRhNTIzNzBmZGJkZDkyZmMwYTg3Yjc2NTQxOTNlOTk3YWI3ZTI5MzNhYjYxZDM3ZTYzYWY5NjgxNzVjNCJ9fX0="
+									}]
+								}
+								Id: [I;
+									1589009174
+									-1156626085
+									-1810714831
+									189195101
+								]
+							}
+							display: {
+								Name: "{\"text\":\"LadyLexxie\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "314537C71B1B5741"
+			tasks: [{
+				id: "4F7E4F430154E96E"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			id: "088E6EA318D25659"
+			tasks: [{
+				id: "48CC30220D7FC2C9"
+				type: "item"
+				item: "atmadditions:nexium_emitter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			id: "29FFA090ADB56195"
+			tasks: [{
+				id: "3F1E9259BB90D044"
+				type: "item"
+				item: "atmadditions:philosophers_fuel"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			id: "296E89E2DF857B25"
+			tasks: [{
+				id: "56F3DEFF2D46B881"
+				type: "item"
+				item: "atmadditions:pulsating_black_hole"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			id: "794EC696A3B7DAC3"
+			tasks: [{
+				id: "10834451DAC877C5"
+				type: "item"
+				item: "atmadditions:dimensional_seed"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["制作强力的创造物品需要"]
+			id: "464D0C17601E8A2B"
+			tasks: [{
+				id: "5F6988D125AAB233"
+				type: "item"
+				item: "atmadditions:atm_star"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "24CE3AF373180CC9"
+			tasks: [{
+				id: "7222BF35C9281295"
+				type: "item"
+				item: "kubejs:patrick_star"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			id: "20408CB5A15237EA"
+			tasks: [{
+				id: "64A1AE71DDC8F0B0"
+				type: "item"
+				item: "atmadditions:oblivion_shard"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "4A629299C15E7E81"
+			tasks: [{
+				id: "52DDA8A874F605CB"
+				type: "item"
+				item: "atmadditions:improbable_probability_device"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			id: "3615BAFD4F2AD479"
+			tasks: [{
+				id: "48CE28F5C1683093"
+				type: "item"
+				item: "atmadditions:dragon_soul"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			id: "5477FBAEBDE2D10B"
+			tasks: [{
+				id: "042808E2D5E02DED"
+				type: "item"
+				item: "atmadditions:withers_compass"
+			}]
+		}
+		{
+			title: "无限能量"
+			x: 2.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			id: "436B5A79FA72DB1A"
+			tasks: [
+				{
+					id: "033F476B1BF4E019"
+					type: "item"
+					item: "integrateddynamics:energy_battery_creative"
+				}
+				{
+					id: "6E4D52064D796B82"
+					type: "item"
+					item: {
+						id: "mekanism:creative_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [{
+									Container: 0b
+									stored: "18446744073709551615.9999"
+								}]
+							}
+						}
+					}
+				}
+				{
+					id: "095B0D3C9B780B6D"
+					type: "item"
+					item: "immersiveengineering:capacitor_creative"
+				}
+				{
+					id: "62DBA52A673B030B"
+					type: "item"
+					item: "appliedenergistics2:creative_energy_cell"
+				}
+				{
+					id: "43FEC446367EEE81"
+					type: "item"
+					item: "woot:creative_conatus"
+				}
+			]
+		}
+		{
+			title: "无限魔力"
+			x: 0.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			id: "5C7B81756CA58056"
+			tasks: [
+				{
+					id: "775BD503F830BB6C"
+					type: "item"
+					item: "botania:creative_pool"
+				}
+				{
+					id: "7FDBB3698C087D8B"
+					type: "item"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+							creative: 1b
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "新生魔艺"
+			x: 1.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			id: "6FB82574D7AE6D85"
+			tasks: [
+				{
+					id: "38D108393447BCA3"
+					type: "item"
+					item: "ars_nouveau:creative_spell_book"
+				}
+				{
+					id: "59FB36C4D3780888"
+					type: "item"
+					item: "ars_nouveau:creative_mana_jar"
+				}
+			]
+		}
+		{
+			title: "创造离心机"
+			x: -2.5d
+			y: -1.5d
+			hide_dependency_lines: true
+			id: "13E4B8DECD54CFE1"
+			tasks: [
+				{
+					id: "7264B77AE04099FC"
+					type: "item"
+					item: "ctiers:centrifuge_controller_tier_creative"
+				}
+				{
+					id: "5DB8527C27ABA035"
+					type: "item"
+					item: "ctiers:centrifuge_casing_tier_creative"
+					count: 35L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "0A5EE5CAA2CC572E"
+			tasks: [{
+				id: "3C71DA673A75CBAA"
+				type: "item"
+				item: "rftoolsdim:dimension_builder"
+			}]
+		}
+		{
+			title: "冰与火之歌"
+			x: -2.5d
+			y: -3.0d
+			hide_dependency_lines: true
+			id: "7DB018F46584386C"
+			tasks: [
+				{
+					id: "386CDB9672DABEFD"
+					type: "item"
+					item: "iceandfire:creative_dragon_meal"
+				}
+				{
+					id: "472661F36304E191"
+					type: "item"
+					item: "iceandfire:dragonegg_red"
+				}
+				{
+					id: "6E5798DE7C154661"
+					type: "item"
+					item: "iceandfire:dragonegg_blue"
+				}
+				{
+					id: "0195E0F92E81EFBA"
+					type: "item"
+					item: "iceandfire:dragonegg_electric"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			id: "22C55C94E18D5073"
+			tasks: [{
+				id: "65EAD2FC01537F02"
+				type: "item"
+				item: "waterstrainer:super_worm"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			id: "54F43B991F8ADB0F"
+			tasks: [{
+				id: "1446F1B10FD2814E"
+				type: "item"
+				item: {
+					id: "ironjetpacks:creative_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "为生活而设置"
+			x: 0.0d
+			y: -5.5d
+			subtitle: "足以在整合包中做所有东西？"
+			hide_dependency_lines: true
+			dependencies: [
+				"2CF11A70229000AB"
+				"0A5EE5CAA2CC572E"
+				"7DB018F46584386C"
+				"13E4B8DECD54CFE1"
+				"695EEC6AEF550449"
+				"5C010374A550B53F"
+				"5C7B81756CA58056"
+				"54F43B991F8ADB0F"
+				"546D0730D780D30B"
+				"22C55C94E18D5073"
+				"436B5A79FA72DB1A"
+				"6FB82574D7AE6D85"
+			]
+			hide: true
+			size: 3.0d
+			id: "6E6FDF551EA4FF1A"
+			tasks: [{
+				id: "0814C4E6DE262193"
+				type: "item"
+				item: "allthecompressed:atm_star_block_1x"
+			}]
+			rewards: [{
+				id: "31A7D5AEF21B43BC"
+				type: "item"
+				item: "allthetweaks:trophy_atm"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"要获得碎片，您必须建造一个4格高的多方块结构，如下所示："
+				"底部的方块是基岩，上面是一个铁砧，顶部有一个物品框。将鼠标放在物品框上，放置雷神之锤。"
+				"只要你做了这个结构，把你的ATM星放在物品框里，然后点击锤子。"
+				"{image:allthemods:textures/atm_shard_bonk.png width:100 height:200 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["464D0C17601E8A2B"]
+			id: "3A6E437A6D0C634D"
+			tasks: [{
+				id: "7185D1288C51896F"
+				type: "item"
+				item: "atmadditions:atm_star_shard"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["3A6E437A6D0C634D"]
+			id: "435F4E14490CBE2B"
+			tasks: [{
+				id: "6E417FA286B2F2BF"
+				type: "item"
+				item: "atmadditions:allthecatalystium"
+			}]
+		}
+	]
+}
