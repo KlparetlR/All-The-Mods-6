@@ -1,0 +1,38 @@
+﻿2022-07-02 16:17
+
+                                              ☞极为重要！！！
+Ⅰ.如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，内存至少给4G
+
+Ⅱ.因了解到之前的1.8.20的汉化违反了CF协议（CurseForge）。所以在这里不提供整合包本体和修改体以及汉化资源包，
+但我会把您要下载使用的链接放在下方（也可以用pcl或hmcl下载）：
+
+(CurseForge 整合包下载器):https://blog.zhanganzhi.com/zh-CN/2022/06/7b049d0aa9ff/
+
+⑴.本体（拉入启动器安装）：
+https://www.curseforge.com/minecraft/modpacks/all-the-mods-6/download/3853520
+文件名：ATM6-1.8.27.zip
+
+⑵.i18n（拉入已安装本体的mods文件夹）：
+https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod/download/3538356
+文件名：i18nupdatemod-1.16.5-2.0.3.jar
+resourcepacks文件夹中：Minecraft-Mod-Language-Package-1-16.zip
+
+⑶.安逸菌汉化组的模组简体中文翻译包（拉入已安装本体的resourcepacks文件夹）：
+https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Language-Package
+文件名：Minecraft-Mod-Language-Package-Not-Included-Language-Package.zip
+
+☞记得确认是否成功加载翻译包
+------------------------------------------------------------------------------------------------------------
+这里是 KlparetlR，汉化该整合包的作者，第一次个人翻译，如果有您觉得作者的哪里汉化不对的，见谅！
+一些mod可能i18和翻译包没有汉化，那就您要自己查翻译。
+另外，作者汉化蜜蜂任务时，建了个所有蜜蜂的英文名和中文名，您可以查看它，也许对你有帮助
+------------------------------------------------------------------------------------------------------------
+基础信息：[1.1.0] All The Mods 6-汉化-1.8.27-by KlparetlR
+
+GitHub：https://github.com/KlparetlR/All-The-Mods-6
+
+测试：KlparetlR、Rinth_live
+
+特别鸣谢：安逸菌汉化组 的帮助 
+
+祝您游玩愉快，Thanks！
