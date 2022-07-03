@@ -21,7 +21,7 @@
 			shape: "gear"
 			description: [
 				"欢迎来到&a基座&f！"
-				"（官方教程：https://github.com/Mowmaster/Pedestals/wiki/Getting-Started 或 哔哩哔哩:BV1zv411N7Hh）"
+				"（官方教程：https://github.com/Mowmaster/Pedestals/wiki/Getting-Started或哔哩哔哩:BV1zv411N7Hh）"
 				"这仍然是未完成的，如果还不是很有帮助，请见谅。"
 			]
 			size: 1.5d
