@@ -1,4 +1,4 @@
-﻿2022-07-02 16:17
+2022-07-03 20:15
 
                                               ☞极为重要！！！
 Ⅰ.如果创建存档时进不去，可以试试单独安装这个整合包在其他地方，内存至少给4G
@@ -27,7 +27,7 @@ https://github.com/ShaBaiTianCN/Minecraft-Mod-Language-Package-Not-Included-Lang
 一些mod可能i18和翻译包没有汉化，那就您要自己查翻译。
 另外，作者汉化蜜蜂任务时，建了个所有蜜蜂的英文名和中文名，您可以查看它，也许对你有帮助
 ------------------------------------------------------------------------------------------------------------
-基础信息：[1.1.0] All The Mods 6-汉化-1.8.27-by KlparetlR
+基础信息：[1.1.1] All The Mods 6-汉化-1.8.27-by KlparetlR
 
 GitHub：https://github.com/KlparetlR/All-The-Mods-6
 
