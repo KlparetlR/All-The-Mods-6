@@ -1,10 +1,11 @@
 <!-- markdownlint-disable MD033 -->
 # Modpack
 
+[![Name](https://img.shields.io/badge/CurseForge-All%20The%20Mods%206-F16436)](https://www.curseforge.com/minecraft/modpacks/all-the-mods-6)
 [![Website](https://shields.io/website?up_message=anyijun.com&url=http://anyijun.com&label=Website)](http://anyijun.com)
-[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/ShaBaiTianCN/Modpack/blob/master/LICENSE)
-[![Downloads](https://shields.io/github/downloads/KlparetlR/All-The-Mods-6/total?label=Downloads)](https://github.com/KlparetlR/All-The-Mods-6/releases)
-[![Release](https://shields.io/github/v/release/KlparetlR/All-The-Mods-6?display_name=tag&include_prereleases&label=Release)](https://github.com/KlparetlR/All-The-Mods-6/releases/latest)
+[![License](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-blue)](https://github.com/KlparetlR/All-The-Mods-6/blob/master/LICENSE)
+[![Downloads](https://shields.io/github/downloads/ShaBaiTianCN/Modpack/total?label=Downloads)](https://github.com/KlparetlR/All-The-Mods-6/releases)
+[![Release](https://shields.io/github/v/release/ShaBaiTianCN/Modpack?display_name=tag&include_prereleases&label=Release)](https://github.com/KlparetlR/All-The-Mods-6/releases/latest)
 
 ## 仓库说明
 
